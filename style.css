@@ -7,12 +7,17 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+    font-size: 40px;
+}
+
 .name {
     color: #ff6f00;
 }
 
-section {
+.flex-container {
     display: flex;
+    margin-bottom: 100px;
 }
 
 .half-width {
@@ -40,10 +45,10 @@ a:hover {
 .flowrino-btn {
     display: flex;
     flex-direction: column;
-    border-radius: ;
+    border-radius: 12px;
     align-items: center;
     justify-content: center;
-    width: 150px;
+    width: 220px;
     height: 50px;
     font-weight: 200;
     font-size: 14pt;
@@ -76,4 +81,26 @@ a:hover {
 .top-banner {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.dream-big {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.experience-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.experinece-item {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 10px 10px 40px gray;
 }
