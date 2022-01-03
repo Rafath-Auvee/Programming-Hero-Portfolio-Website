@@ -1,0 +1,79 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.name {
+    color: #ff6f00;
+}
+
+section {
+    display: flex;
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 5%;
+}
+
+.half-width img {
+    width: 80%;
+}
+
+a {
+    text-decoration: none;
+    transition: all 0.45s ease-in-out !important;
+    z-index: 1;
+}
+
+a:hover {
+    transition: all 0.45s ease-in-out !important;
+}
+
+
+/* FLOWRINO BUTTON */
+
+.flowrino-btn {
+    display: flex;
+    flex-direction: column;
+    border-radius: ;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 50px;
+    font-weight: 200;
+    font-size: 14pt;
+    background: linear-gradient(to right, Tomato, DarkOrange, Crimson, Tomato);
+    background-size: 600% 600%;
+    border: 1px solid transparent;
+    animation: gradient 30s linear infinite;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.flowrino-btn:hover {
+    background: linear-gradient( to right, CornflowerBlue, Aqua, DeepPink, CornflowerBlue);
+    background-size: 600% 600%;
+    animation: gradient 20s linear infinite;
+    filter: drop-shadow(0px 0px 30px CornflowerBlue);
+    font-weight: 400;
+    text-shadow: 0px 0px 3px CornflowerBlue;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 600% 50%;
+    }
+}
+
+.top-banner {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
