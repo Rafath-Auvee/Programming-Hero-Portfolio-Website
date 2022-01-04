@@ -104,3 +104,19 @@ a:hover {
     padding-right: 20px;
     box-shadow: 10px 10px 40px gray;
 }
+
+#full-stack {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+#web-dev {
+    border-left: 7px solid;
+    border-image: linear-gradient(salmon, tomato);
+    border-image-slice: 1;
+}
+
+footer p {
+    text-align: center;
+}
