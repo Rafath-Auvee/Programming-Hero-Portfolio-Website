@@ -8,11 +8,23 @@ h1 {
 }
 
 h2 {
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .name {
     color: #ff6f00;
+}
+
+.name2 {
+    color: #070a88;
+}
+
+.main-page {
+    padding-top: 50px;
+}
+
+.dream-big-text {
+    width: 70%;
 }
 
 .flex-container {
